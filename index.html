@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center">
+        <div class="page-header">
+          <h1>Mad Libs</h1>
+        </div>
+      </div>
+      <div class="well">
+        <form id="blanks">
+          <fieldset>
+            <div class="form-group">
+              <label for="person1">Enter a person's name</label>
+              <input type="text" id="person1" class="form-control" placeholder="Jim">
+            </div>
+            <div class="form-group">
+              <label for="person2">Enter another person's name</label>
+              <input type="text" id="person2" class="form-control" placeholder="Jane">
+            </div>
+            <div class="form-group">
+              <label for="animal">Enter an animal</label>
+              <input type="text" id="animal" class="form-control" placeholder="Hog">
+            </div>
+            <div class="form-group">
+              <label for="exclamation">Enter an exclamation</label>
+              <input type="text" id ="exclamation" class="form-control" placeholder="golly gee wilikers!">
+            </div>
+            <div class="form-group">
+              <label for="verb">Enter a verb</label>
+              <input type="text" id="verb" class="form-control" placeholder="run">
+            </div>
+            <div class="form-group">
+              <label for="noun">Enter a noun</label>
+              <input type="text" id="noun" class="form-control" placeholder="butts">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-lg btn-primary">Show me the story!</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div id="story">
+        <div class="text-center">
+          <h1>A Fantastical Adventure</h1>
+        </div>
+        <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
